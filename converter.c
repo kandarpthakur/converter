@@ -25,9 +25,6 @@ float pound_to_kgs(float a)
  	return a*0.0254 ;
  }
 
-
-
-
 void  main()
 {
 	int num ,a ;
@@ -51,11 +48,7 @@ void  main()
 		{
                   num = 6;
 		}
-
-
-
-
-
+		
 		switch(num)
 		{
 			case 1: //kgs to miles
