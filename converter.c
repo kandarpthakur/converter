@@ -25,6 +25,7 @@ float pound_to_kgs(float a)
  	return a*0.0254 ;
  }
 
+
 void  main()
 {
 	int num ,a ;
@@ -40,15 +41,20 @@ void  main()
 		if (cont == 'c')
 		{
 			printf("Select the no between 1 to 5 \n");
+			printf("1 is for kgs to miles \n");
+			printf("2 is for inches to foot \n");
+			printf("3 is for  cms to inch \n");
+			printf("4 is for pound to kgs \n");
+			printf("5 is for inch to meters \n");
         	printf(">>");
 			scanf("%d",&num);
-			printf("Selected case is %d >>>>>>",num);
+			printf("Selected case is %d \n",num);
 		}
 		else
 		{
-                  num = 6;
+           num = 6;
 		}
-		
+
 		switch(num)
 		{
 			case 1: //kgs to miles
